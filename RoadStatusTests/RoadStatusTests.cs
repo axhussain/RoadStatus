@@ -8,7 +8,7 @@ using System.Net.Http;
 namespace RoadStatusTests
 {
     [TestClass]
-    public class UnitTest1
+    public class RoadStatusTests
     {
         [TestMethod]
         public void Test_MockApiResult()
