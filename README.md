@@ -2,7 +2,7 @@
 Simple console app client for TfL's public API, returning the status of the given road.
 
 ## Build instructions
-Follow the following steps to clone this repo and build it as a self-contained app).
+Follow these steps to clone this repo and build it as a self-contained app.
 
 1. `git clone https://github.com/axhussain/RoadStatus.git`
 2. `cd RoadStatus` (the solution root)
@@ -13,8 +13,10 @@ Follow the following steps to clone this repo and build it as a self-contained a
 7. `cd .\bin\release\netcoreapp2.1\win-x86\publish\` (the path of RoadStatus.exe)
 8. You can now run the executable, e.g. `RoadStatus.exe A2`
 
-## Assumptions
+## Assumptions/Notes
 The above assumes that the app is being built on a Windows x86 box.
+
+`appsettings.Development.json` has been added to `.gitignore` as it stores my API Id and Key. When running the app on your local machine you can either edit appsettings.json as mentioned above or add `appsettings.Development.json` with the relevant keys.
 
 ## Unit tests
 This repo contains some tests using the MS Test suite. To run the tests:
